@@ -1,0 +1,6 @@
+{
+  "name": "hROM České Budějovice - Web & WordPress šablona",
+  "description": "Oficiální webová prezentace a čistá samostatná PHP WordPress šablona pro spolek hROM České Budějovice, z.s. inspirovaná Slovo 21.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

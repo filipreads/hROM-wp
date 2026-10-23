@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 120" fill="none" role="img" aria-label="hROM České Budějovice">
+  <defs>
+    <filter id="subtle-shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <!-- Segmented Romani Chakra / Color Wheel (Inspired by hROM identity) -->
+  <g transform="translate(60, 60)" filter="url(#subtle-shadow)">
+    <!-- Central hub -->
+    <circle cx="0" cy="0" r="14" fill="#1E2229" />
+    <circle cx="0" cy="0" r="7" fill="#FDFDFC" />
+
+    <!-- 12 Petal Segments -->
+    <!-- Segment 0: Yellow -->
+    <path d="M 0,-16 L 0,-48 A 48 48 0 0 1 24,-41.5 L 8,-13.8 A 16 16 0 0 0 0,-16 Z" fill="#FAC503" />
+    <!-- Segment 1: Amber Yellow -->
+    <path d="M 8,-13.8 L 24,-41.5 A 48 48 0 0 1 41.5,-24 L 13.8,-8 A 16 16 0 0 0 8,-13.8 Z" fill="#FFB703" />
+    <!-- Segment 2: Warm Orange -->
+    <path d="M 13.8,-8 L 41.5,-24 A 48 48 0 0 1 48,0 L 16,0 A 16 16 0 0 0 13.8,-8 Z" fill="#ED7503" />
+    <!-- Segment 3: Fiery Coral -->
+    <path d="M 16,0 L 48,0 A 48 48 0 0 1 41.5,24 L 13.8,8 A 16 16 0 0 0 16,0 Z" fill="#E63312" />
+    <!-- Segment 4: Berry Pink -->
+    <path d="M 13.8,8 L 41.5,24 A 48 48 0 0 1 24,41.5 L 8,13.8 A 16 16 0 0 0 13.8,8 Z" fill="#CE2E85" />
+    <!-- Segment 5: Purple -->
+    <path d="M 8,13.8 L 24,41.5 A 48 48 0 0 1 0,48 L 0,16 A 16 16 0 0 0 8,13.8 Z" fill="#8E44AD" />
+    <!-- Segment 6: Ultramarine -->
+    <path d="M 0,16 L 0,48 A 48 48 0 0 1 -24,41.5 L -8,13.8 A 16 16 0 0 0 0,16 Z" fill="#2E5BFF" />
+    <!-- Segment 7: Deep Blue -->
+    <path d="M -8,13.8 L -24,41.5 A 48 48 0 0 1 -41.5,24 L -13.8,8 A 16 16 0 0 0 -8,13.8 Z" fill="#1F4E9E" />
+    <!-- Segment 8: Roma Sky Blue -->
+    <path d="M -13.8,8 L -41.5,24 A 48 48 0 0 1 -48,0 L -16,0 A 16 16 0 0 0 -13.8,8 Z" fill="#0CACDB" />
+    <!-- Segment 9: Turquoise Teal -->
+    <path d="M -16,0 L -48,0 A 48 48 0 0 1 -41.5,-24 L -13.8,-8 A 16 16 0 0 0 -16,0 Z" fill="#16A085" />
+    <!-- Segment 10: Meadow Green -->
+    <path d="M -13.8,-8 L -41.5,-24 A 48 48 0 0 1 -24,-41.5 L -8,-13.8 A 16 16 0 0 0 -13.8,-8 Z" fill="#669538" />
+    <!-- Segment 11: Lime Green -->
+    <path d="M -8,-13.8 L -24,-41.5 A 48 48 0 0 1 0,-48 L 0,-16 A 16 16 0 0 0 -8,-13.8 Z" fill="#84CC16" />
+
+    <!-- Spoke division rings -->
+    <circle cx="0" cy="0" r="48" stroke="#1E2229" stroke-width="2.5" fill="none" opacity="0.15" />
+  </g>
+
+  <!-- Brand Typography -->
+  <g transform="translate(130, 26)">
+    <!-- "hROM" with customized stylish kerning -->
+    <text x="0" y="44" font-family="'Outfit', 'Plus Jakarta Sans', system-ui, sans-serif" font-weight="400" font-size="46" fill="#1E2229" letter-spacing="-1">
+      <tspan fill="#ED7503" font-weight="700">h</tspan><tspan font-weight="900" fill="#1E2229">ROM</tspan>
+    </text>
+    
+    <!-- Subtitle: České Budějovice, z.s. -->
+    <text x="3" y="68" font-family="'Plus Jakarta Sans', 'Inter', system-ui, sans-serif" font-weight="700" font-size="14.5" fill="#525A66" letter-spacing="1.5">
+      ČESKÉ BUDĚJOVICE<tspan fill="#0CACDB">, z.s.</tspan>
+    </text>
+  </g>
+</svg>
